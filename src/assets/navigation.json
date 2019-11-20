@@ -215,6 +215,11 @@
             "url": "https://coding.net"
         }],
         "animationItem": [{
+            "logo": "/assets/images/icon/animate-css-favicon.png",
+            "name": "Animate.css",
+            "desc": "使用纯CSS实现的动画",
+            "url": "https://daneden.github.io/animate.css/"
+        },{
             "logo": "/assets/images/icon/d3-favicon.png",
             "name": "D3",
             "desc": "用动态图形显示数据的JavaScript库",
