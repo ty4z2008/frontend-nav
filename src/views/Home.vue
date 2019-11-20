@@ -239,6 +239,9 @@ export default Vue.extend({
 	width: 44px;
 	background-color: #fafafa;
 	overflow: hidden;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
 }
 .container .item .logo img{
 	width: 100%;
