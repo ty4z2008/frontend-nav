@@ -7,8 +7,7 @@ env:
   - secure: zNa1CnbThh1MLUFFSbt89vpg32HCtwpJlWkPCS1OJ3mkXg08RgLkFLr3fPWTvam+N7/NjfejR0n+1WpkbGDXk51DF4C+GVlIikpvTsz+JAcd3UnrpXD2xFLb7s2Cc+xN7LnCZMycjrmDI1IQZzO836BPYh3Q7fcPzRp2XWHFY7K19pgHHYSBistw0aTYuyYN3VICGW+89OG5bYoyGZcGoqCKQgaK9odZbOD7zSdqKpeGKO13L9b0Nq77OR5P1MhMUtvSS0JedGadEBeEngQX33TWJ1eNnmGrSjs2i6D43b0IwRWlmxS8pxHCX64zlOeE/or96m5aW+x0VSyuvH12OLNUkQH2Kk+kwUAuzXEfiFnZl1E2vNBqNJffHrNniV/SW3CO0RK/W0Qs/ZOnEQZdk9V4Sur8JjgP0STvgnRHRAqT/jug0dz7+Wjz6slDRdSlZQwYmA4sa/9dBxY0+ld1HDB/ezHi1nRaV9dyLL/Nw4bDKSWLAve/t8BkBxJPGEujk/D/cxm+o47Oqo85ww1+1asn/c99Wk17e0HoXCodmA/vYuDnbDiPFGaVeYoVXwD375kakElcxtaJF74Q7qj1vUaivKU5WeN6c9QmBdZxqObAZnYuPnsc0FVVNfBRREirAi1JcpD10NQTPHr7xAsYTHQapwHv9JvYV37pjp2Vw40=
 before_install:
 - curl -o- -L https://yarnpkg.com/install.sh | bash
-- export PATH="$HOME/.yarn/bin:$(yarn bin):$PATH"
-- rm -rf node_modules package-lock.json
+- export PATH="$HOME/.yarn/bin:$PATH"
 cache:
   yarn: true
 install:
