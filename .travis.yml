@@ -13,8 +13,8 @@ cache:
   directories:
   - "$HOME/.npm"
 install:
+- npm ci
 - yarn add global @vue/cli @vue/cli-service
-- npm install
 script:
 - yarn run build
 deploy:
