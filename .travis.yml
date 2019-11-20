@@ -12,10 +12,9 @@ cache:
   # yarn: true
   npm: false
 before_script:
-- yarn add global @vue/cli @vue/cli-service
 - rm -rf ./node_modules package-lock.json
+- yarn add global @vue/cli @vue/cli-service
 - npm install
-- ls node_modules
 script:
 - yarn run build
 deploy:
