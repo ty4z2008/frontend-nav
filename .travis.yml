@@ -21,6 +21,7 @@ deploy:
   local_dir: dist
   target-branch: gh-pages
   github_token: $GITHUB_TOKEN
+  api_key: $GITHUB_TOKEN
   keep_history: true
   edge: true
   verbose: true
