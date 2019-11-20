@@ -14,6 +14,7 @@ cache:
 before_script:
 - yarn add global @vue/cli @vue/cli-service
 - npm install
+- ls node_modules
 script:
 - yarn run build
 deploy:
