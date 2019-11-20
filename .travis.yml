@@ -11,6 +11,7 @@ before_install:
 cache:
   yarn: true
 install:
+- yarn add global @vue/cli @vue/cli-service
 - yarn -D
 script:
 - yarn run build
