@@ -14,6 +14,10 @@ export default class App extends Vue {}
 </script>
 
 <style>
+html{
+	overflow: hidden;
+	height: 100%;
+}
 body{
 	font-size: 13px;
 	margin:0;
@@ -21,6 +25,8 @@ body{
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color:#eff3f6;
+	height: 100%;
+	overflow-y: auto;
 }
 a{
 	color: #1890ff;

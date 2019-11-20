@@ -46,6 +46,8 @@
 <script lang="ts">
 import { menu, list } from '../assets/navigation.json'
 import Vue from 'vue'
+const cubic = (value :number) :number => Math.pow(value, 3)
+const easeInOutCubic = (value :number) :number => value < 0.5 ? cubic(value * 2) / 2 : 1 - cubic((1 - value) * 2) / 2
 
 export default Vue.extend({
 	name: 'Home',
@@ -53,6 +55,7 @@ export default Vue.extend({
 		return {
 			menu: menu,
 			list: list,
+			el: document.body,
 			showMenu: false,
 			currentAnchor: ''
 		}
@@ -63,7 +66,47 @@ export default Vue.extend({
 		},
 		setActiveAnchor (anchor:string):void {
 			this.currentAnchor = anchor
+			this.showMenu = false
+			let anchorBlock = document.querySelector(`#${anchor}`) as HTMLElement
+			if (!anchorBlock) return
+			let offsetTop = anchorBlock.offsetTop
+			this.scrollTo(offsetTop)
+		},
+		scrollTo (offset :number) {
+			const el = document.body as HTMLElement
+			const beginTime = Date.now()
+			const beginValue = el.scrollTop
+			const rAF = window.requestAnimationFrame || (func => setTimeout(func, 16))
+			const frameFunc = () => {
+				const progress = (Date.now() - beginTime) / 500
+				if (progress < 1) {
+					el.scrollTop = offset > beginValue ? offset - (offset - beginValue) * (1 - easeInOutCubic(progress)) : offset + (beginValue - offset) * (1 - easeInOutCubic(progress))
+					rAF(frameFunc)
+				} else {
+					el.scrollTop = offset
+				}
+			}
+			rAF(frameFunc)
+		},
+		/**
+		 * init page
+		 */
+		init ():Boolean {
+			let anchor = location.hash
+			if (anchor) {
+				let anchorBlock = document.querySelector(anchor) as HTMLElement
+				if (!anchorBlock) return false
+				let offsetTop = anchorBlock.offsetTop
+				this.scrollTo(offsetTop)
+				this.currentAnchor = anchor.replace(/#/, '')
+			}
+			return true
 		}
+	},
+	mounted () {
+		this.$nextTick(() => {
+			this.init()
+		})
 	}
 })
 </script>
