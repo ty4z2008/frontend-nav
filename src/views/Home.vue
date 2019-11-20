@@ -72,13 +72,10 @@ export default Vue.extend({
 	display: flex;
 }
 .home .sidebar{
-	background: #ddd;
 	display: flex;
-	background: #30333c;
 	box-sizing: border-box;
 	flex-direction: column;
 	color: #6b7386;
-	height: 100vh;
 }
 .navbar{
 	z-index: 2;
@@ -87,6 +84,7 @@ export default Vue.extend({
 	top: 0;
 	width: 160px;
 	height: 100vh;
+	background: #30333c;
 }
 .navbar .navbar-toggle {
 	background: rgba(0,0,0,0.6);
