@@ -12,7 +12,7 @@ cache:
   yarn: true
 install:
 - yarn global add @vue/cli
-- yarn add @vue/cli-service
+- yarn add @vue/cli-service @vue/cli-plugin-babel
 - yarn
 script:
 - yarn run build
