@@ -12,8 +12,8 @@ cache:
   yarn: true
 install:
 - yarn add global @vue/cli @vue/cli-service
-- yarn add @vue/cli-plugin-babel
-- yarn install
+- yarn add @vue/cli-plugin-babel @vue/cli-plugin-eslint
+- npm install
 script:
 - yarn run build
 deploy:
