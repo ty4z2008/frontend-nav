@@ -12,7 +12,7 @@ cache:
   yarn: true
   directories:
   - "$HOME/.npm"
-install:
+before_script:
 - npm install
 - yarn add global @vue/cli @vue/cli-service
 script:
