@@ -1,9 +1,6 @@
 language: node_js
 node_js:
 - lts/erbium
-env:
-  GITHUB_TOKEN:
-    secure: nZHVcCM+mlOHRYkuLqfZ9wV6V+MkeFZto0CcL66+fJJD5pZbhQTTsv372RLuJVeyL6ekS/x7tO2ye9nPICziHwaafkSZ3XCE2JBqJDmQ/UcG0Se3JoMLbPql9cUG8IH59EAqYZX07qof8k9OCoHV2oJm2mHmHITKjgxGrYeQqIfC3yfnBsEjftDuDLlnR9pBZCmNt8NNccqzVrmkJE7ct3bXgju0MH/mcp8wfi16qdeF4FfDULr6wrCrJ5PBTsiYihp4NfALaK0DOkHtLrVf7vkj6fEY0epkE70XZnllre0hOaWJK7JcqLTmoeqxgRwEubCYY1hbi6LDDEWzGBCK23aHUFkqf1fnUlqCxU0EB6YF7VAp95CdFCiPF+yonLqDIf5cnIuq1cD6JqOvz7tcFSV8E2jENnGqYdW0O+fZywT0lt51cr3ZqkBHIiZHr9hKHAYbbEnjTNb6UhvuC3r8NLQ6uOr7j9fdXoIehkr5UqYcEByo/6/BBb5D0yi97g1ufrqMit+ggKTT2rNj9dgMvWu6r3PXsRcBI5SFZPnJt+4tBod/Xl7IIhqHej0XVJuKpfQbRu+pcYh69Kdv29TcgZHLsKIAKwLAd/Bey3COIbvXSJ8whN87ura4rDMFgPkiBRLFuABh8P8UDUBui4ZHwLMlDgqUaSIll1Rld5yGf+s=
 before_install:
 - curl -o- -L https://yarnpkg.com/install.sh | bash
 - export PATH="$HOME/.yarn/bin:$PATH"
@@ -16,19 +13,15 @@ before_script:
 script:
 - yarn run build
 deploy:
-  provider: releases
+  provider: pages
   skip_cleanup: true
   local_dir: dist
   target-branch: gh-pages
-  github_token:
-    secure: nZHVcCM+mlOHRYkuLqfZ9wV6V+MkeFZto0CcL66+fJJD5pZbhQTTsv372RLuJVeyL6ekS/x7tO2ye9nPICziHwaafkSZ3XCE2JBqJDmQ/UcG0Se3JoMLbPql9cUG8IH59EAqYZX07qof8k9OCoHV2oJm2mHmHITKjgxGrYeQqIfC3yfnBsEjftDuDLlnR9pBZCmNt8NNccqzVrmkJE7ct3bXgju0MH/mcp8wfi16qdeF4FfDULr6wrCrJ5PBTsiYihp4NfALaK0DOkHtLrVf7vkj6fEY0epkE70XZnllre0hOaWJK7JcqLTmoeqxgRwEubCYY1hbi6LDDEWzGBCK23aHUFkqf1fnUlqCxU0EB6YF7VAp95CdFCiPF+yonLqDIf5cnIuq1cD6JqOvz7tcFSV8E2jENnGqYdW0O+fZywT0lt51cr3ZqkBHIiZHr9hKHAYbbEnjTNb6UhvuC3r8NLQ6uOr7j9fdXoIehkr5UqYcEByo/6/BBb5D0yi97g1ufrqMit+ggKTT2rNj9dgMvWu6r3PXsRcBI5SFZPnJt+4tBod/Xl7IIhqHej0XVJuKpfQbRu+pcYh69Kdv29TcgZHLsKIAKwLAd/Bey3COIbvXSJ8whN87ura4rDMFgPkiBRLFuABh8P8UDUBui4ZHwLMlDgqUaSIll1Rld5yGf+s=
-  api_key:
-    secure: nZHVcCM+mlOHRYkuLqfZ9wV6V+MkeFZto0CcL66+fJJD5pZbhQTTsv372RLuJVeyL6ekS/x7tO2ye9nPICziHwaafkSZ3XCE2JBqJDmQ/UcG0Se3JoMLbPql9cUG8IH59EAqYZX07qof8k9OCoHV2oJm2mHmHITKjgxGrYeQqIfC3yfnBsEjftDuDLlnR9pBZCmNt8NNccqzVrmkJE7ct3bXgju0MH/mcp8wfi16qdeF4FfDULr6wrCrJ5PBTsiYihp4NfALaK0DOkHtLrVf7vkj6fEY0epkE70XZnllre0hOaWJK7JcqLTmoeqxgRwEubCYY1hbi6LDDEWzGBCK23aHUFkqf1fnUlqCxU0EB6YF7VAp95CdFCiPF+yonLqDIf5cnIuq1cD6JqOvz7tcFSV8E2jENnGqYdW0O+fZywT0lt51cr3ZqkBHIiZHr9hKHAYbbEnjTNb6UhvuC3r8NLQ6uOr7j9fdXoIehkr5UqYcEByo/6/BBb5D0yi97g1ufrqMit+ggKTT2rNj9dgMvWu6r3PXsRcBI5SFZPnJt+4tBod/Xl7IIhqHej0XVJuKpfQbRu+pcYh69Kdv29TcgZHLsKIAKwLAd/Bey3COIbvXSJ8whN87ura4rDMFgPkiBRLFuABh8P8UDUBui4ZHwLMlDgqUaSIll1Rld5yGf+s=  
+  github_token: $GITHUB_TOKEN
   keep_history: true
   edge: true
   verbose: true
   on:
     branch: master
-    repo: ty4z2008/frontend-nav
 notifications:
   webhooks: https://oapi.dingtalk.com/robot/send?access_token=ff87f64ef8a735978a2a180e7809c70b055d71a01cefe3b2b1d82b51444ad5cf
