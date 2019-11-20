@@ -13,7 +13,6 @@ cache:
 before_script:
 - yarn global add @vue/cli @vue/cli-service push-dir
 - yarn install
-- ls node_modules
 script:
 - yarn run build
 deploy:
@@ -21,7 +20,7 @@ deploy:
   skip_cleanup: true
   local_dir: dist
   target-branch: gh-pages
-  github_token: "$GITHUB_TOKEN"
+  github_token: $GITHUB_TOKEN
   keep_history: true
   edge: true
   verbose: true
