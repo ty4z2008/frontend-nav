@@ -12,7 +12,7 @@ cache:
   yarn: true
 install:
 - yarn add global @vue/cli @vue/cli-service
-- yarn add @vue/cli-plugin-babel @vue/cli-plugin-eslint @typescript-eslint @vue/cli-plugin-typescript @vue/cli-service @vue/eslint-config-standard @vue/eslint-config-typescript eslint eslint-plugin-vue typescript vue-template-compiler
+- yarn add @vue/cli-plugin-babel @vue/cli-plugin-eslint @typescript-eslint/eslint-plugin @vue/cli-plugin-typescript @vue/cli-service @vue/eslint-config-standard @vue/eslint-config-typescript eslint eslint-plugin-vue typescript vue-template-compiler
 - npm install
 script:
 - yarn run build
