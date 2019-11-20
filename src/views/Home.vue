@@ -201,7 +201,6 @@ export default Vue.extend({
 }
 .container .item{
 	background: #fff;
-	border-radius: 3px;
 	color: #616161;
 	display: inline-block;
 	font-size: 13px;
