@@ -209,10 +209,10 @@
             "url": "http://reactivex.io/rxjs/"
         }],
         "front-end-platformItem": [{
-            "logo": "/assets/images/icon/coding.png",
-            "name": "Coding",
-            "desc": "中国最大的git平台。",
-            "url": "https://coding.net"
+            "logo": "/assets/images/icon/github-favicon.png",
+            "name": "Github",
+            "desc": "全球最大的git平台",
+            "url": "https://github.com"
         }],
         "animationItem": [{
             "logo": "/assets/images/icon/animate-css-favicon.png",
