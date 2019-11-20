@@ -12,6 +12,7 @@ cache:
   yarn: true
 install:
 - yarn
+- yarn global add @vue/cli
 script:
 - yarn run build
 deploy:
