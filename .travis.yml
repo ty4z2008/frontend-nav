@@ -16,7 +16,7 @@ before_script:
 script:
 - yarn run build
 deploy:
-  provider: pages
+  provider: releases
   skip_cleanup: true
   local_dir: dist
   target-branch: gh-pages
