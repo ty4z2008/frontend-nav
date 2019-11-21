@@ -283,6 +283,11 @@
             "url": "http://stylus-lang.com/"
         }],
         "front-end-confItem": [{
+            "logo": "/assets/images/icon/jsconf-favicon.png",
+            "name": "JSConf",
+            "desc": "JavaScript社区会议，重点关注JavaScript 方面的技术",
+            "url": "https://jsconf.com/"
+        } ,{
             "logo": "/assets/images/icon/qqlog.png",
             "name": "腾讯 Web 前端大会",
             "desc": "腾讯主办，力争为参会者带来最具实践价值、最接地气的Web前端开发经验。",
