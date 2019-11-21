@@ -73,7 +73,7 @@ export default Vue.extend({
 			this.scrollTo(offsetTop)
 		},
 		scrollTo (offset :number) {
-			const el = document.body as HTMLElement
+			const el = document.documentElement as HTMLElement
 			const beginTime = Date.now()
 			const beginValue = el.scrollTop
 			const rAF = window.requestAnimationFrame || (func => setTimeout(func, 16))

@@ -16,6 +16,7 @@ export default class App extends Vue {}
 <style>
 html{
 	height: 100%;
+	overflow-y: auto;
 }
 body{
 	font-size: 13px;
@@ -25,7 +26,6 @@ body{
 	-moz-osx-font-smoothing: grayscale;
 	background-color:#eff3f6;
 	height: 100%;
-	overflow-y: auto;
 }
 a{
 	color: #1890ff;
