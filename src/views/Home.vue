@@ -93,6 +93,7 @@ export default Vue.extend({
 		 */
 		init ():Boolean {
 			let anchor = location.hash
+			window.scrollTo(0, 1)
 			if (anchor) {
 				let anchorBlock = document.querySelector(anchor) as HTMLElement
 				if (!anchorBlock) return false
