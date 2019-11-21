@@ -1,61 +1,61 @@
 {
     "menu": [{
         "name": "团队组织",
-        "id": "blogItem"
+        "id": "blog"
     }, {
         "name": "开发社区",
-        "id": "communityItem"
+        "id": "community"
     }, {
         "name": "前端门户",
-        "id": "fePortalsItem"
+        "id": "fePortals"
     }, {
         "name": "框架类库",
-        "id": "frameworkItem"
+        "id": "framework"
     }, {
         "name": "图形动效",
-        "id": "animationItem"
+        "id": "animation"
     }, {
         "name": "游戏框架",
-        "id": "gameFrameworkItem"
+        "id": "gameFramework"
     }, {
         "name": "CSS相关",
-        "id": "cssItem"
+        "id": "css"
     }, {
         "name": "前端大会",
-        "id": "front-end-confItem"
+        "id": "front-end-conf"
     }, {
         "name": "Node.js相关",
-        "id": "nodejsItem"
+        "id": "nodejs"
     }, {
         "name": "IDE",
-        "id": "ideItem"
+        "id": "ide"
     }, {
         "name": "调试工具",
-        "id": "debugToolsItem"
+        "id": "debugTools"
     }, {
         "name": "构建工具",
-        "id": "buildToolsItem"
+        "id": "buildTools"
     }, {
         "name": "在线工具",
-        "id": "inlineToolsItem"
+        "id": "inlineTools"
     }, {
         "name": "字体图标",
-        "id": "fontIconItem"
+        "id": "fontIcon"
     }, {
         "name": "设计资源",
-        "id": "designNavItem"
+        "id": "designNav"
     }, {
         "name": "前端公众号",
-        "id": "wechatSubscriptionItem"
+        "id": "wechatSubscription"
     }, {
         "name": "前端大牛",
-        "id": "excellentFrontEndEngineerItem"
+        "id": "excellentFrontEndEngineer"
     }, {
         "name": "书籍推荐",
-        "id": "bookShareItem"
+        "id": "bookShare"
     }],
     "list": {
-        "blogItem": [
+        "blog": [
         {
             "logo": "/assets/images/icon/v8-blog.svg",
             "name": "V8 Blog",
@@ -97,7 +97,7 @@
             "desc": "由百度多个遵循统一技术体系的前端团队所组成",
             "url": "http://efe.baidu.com/"
         }],
-        "communityItem": [{
+        "community": [{
             "logo": "/assets/images/icon/gold-favicon.png",
             "name": "掘金",
             "desc": "只有高手分享的中文技术社区",
@@ -138,7 +138,7 @@
             "desc": "每天推出一个JS技巧的网站",
             "url": "http://www.jstips.co/"
         }],
-        "fePortalsItem": [{
+        "fePortals": [{
             "logo": "/assets/images/icon/docschina.png",
             "name": "印记中文",
             "desc": "印记中文是最权威是技术中文文档社区",
@@ -164,7 +164,7 @@
             "desc": "旨在更完善的为各位前端爱好者提供阅读和自我提升服务。",
             "url": "http://www.daqianduan.com/"
         }],
-        "frameworkItem": [{
+        "framework": [{
             "logo": "/assets/images/icon/react-favicon.png",
             "name": "React",
             "desc": "用于构建用户界面的Javscript库",
@@ -205,13 +205,13 @@
             "desc": "提供强大的数据流组合和控制能力的Reactive编程库",
             "url": "http://reactivex.io/rxjs/"
         }],
-        "front-end-platformItem": [{
+        "front-end-platform": [{
             "logo": "/assets/images/icon/github-favicon.png",
             "name": "Github",
             "desc": "全球最大的git平台",
             "url": "https://github.com"
         }],
-        "animationItem": [{
+        "animation": [{
             "logo": "/assets/images/icon/animate-css-favicon.png",
             "name": "Animate.css",
             "desc": "使用纯CSS实现的动画",
@@ -242,7 +242,7 @@
             "desc": "兼容 IE6+、支持移动端、图表类型丰富的HTML5交互性图表库",
             "url": "http://www.highcharts.com/"
         }],
-        "gameFrameworkItem": [{
+        "gameFramework": [{
             "logo": "/assets/images/icon/phaserjs.png",
             "name": "PhaserJS",
             "desc": "PC端和移动端HTML5游戏框架。",
@@ -258,7 +258,7 @@
             "desc": "为移动领域提供完整高效的游戏及应用解决方案",
             "url": "https://www.egret.com/"
         }],
-        "cssItem": [{
+        "css": [{
             "logo": "/assets/images/icon/css-tricks-favicon.png",
             "name": "CSS-Tricks",
             "desc": "一个关于运用CSS技术进行网络开发和设计的小技巧的交流网站",
@@ -284,7 +284,7 @@
             "desc": "EXPRESSIVE, DYNAMIC, ROBUST CSS",
             "url": "http://stylus-lang.com/"
         }],
-        "front-end-confItem": [{
+        "front-end-conf": [{
             "logo": "/assets/images/icon/jsconf-favicon.png",
             "name": "JSConf",
             "desc": "JavaScript社区会议，重点关注JavaScript 方面的技术",
@@ -330,7 +330,7 @@
             "desc": "一场专注于JavaScript和Node.js技术的国际性大会",
             "url": "http://jsconf.cn/"
         }],
-        "nodejsItem": [{
+        "nodejs": [{
             "logo": "/assets/images/icon/koa.png",
             "name": "Koa",
             "desc": "基于Nodejs的新一代框架。",
@@ -341,7 +341,7 @@
             "desc": "基于 Node.js 平台，快速、开放、极简的 web 开发框架。",
             "url": "http://www.expressjs.com.cn/"
         }],
-        "ideItem": [{
+        "ide": [{
             "logo": "/assets/images/icon/vscode.jpg",
             "name": "Visual Studio Code",
             "desc": "微软开源的跨平台代码编辑器",
@@ -357,7 +357,7 @@
             "desc": "这才叫前端IDE",
             "url": "https://www.jetbrains.com/webstorm/"
         }],
-        "debugToolsItem": [{
+        "debugTools": [{
             "logo": "/assets/images/icon/fiddler-favicon.png",
             "name": "Fiddler",
             "desc": "前端必备抓包调试工具，没有之一",
@@ -368,7 +368,7 @@
             "desc": "好用的抓包调试工具，可在mac上使用",
             "url": "https://www.charlesproxy.com/"
         }],
-        "buildToolsItem": [{
+        "buildTools": [{
             "logo": "/assets/images/icon/rollup-favicon.svg",
             "name": "Rollup.js",
             "desc": "一个 JavaScript 模块打包器，可以将小块代码编译成大块复杂的代码",
@@ -414,7 +414,7 @@
             "desc": "FIS3 , 为你定制的前端工程构建工具",
             "url": "https://fex-team.github.io/fis3/"
         }],
-        "inlineToolsItem": [{
+        "inlineTools": [{
             "logo": "/assets/images/icon/codepen.png",
             "name": "CodePen",
             "desc": "在线代码测试工具",
@@ -425,7 +425,7 @@
             "desc": "Web前端兼容性列表",
             "url": "http://caniuse.com/"
         }],
-        "fontIconItem": [{
+        "fontIcon": [{
             "logo": "/assets/images/icon/font-awesome-favicon.png",
             "name": "Font Awesome",
             "desc": "完美的图标字体 只为Bootstrap设计",
@@ -441,7 +441,7 @@
             "desc": "WEB字体图标制造器",
             "url": "https://icomoon.io/"
         }],
-        "designNavItem": [{
+        "designNav": [{
             "logo": "/assets/images/icon/uigreat-favicon.jpg",
             "name": "UIGREAT",
             "desc": "优秀设计师的贴心伴侣。",
@@ -477,7 +477,7 @@
             "desc": "互动多媒体网站收录平台",
             "url": "https://thefwa.com/"
         }],
-        "wechatSubscriptionItem": [{
+        "wechatSubscription": [{
             "logo": "/assets/images/icon/alloyteam-qrcode.png",
             "name": "腾讯AlloyTeam",
             "desc": "微信号：AlloyTeam",
@@ -538,7 +538,7 @@
             "desc": "微信号：w3ctech",
             "url": "#"
         }],
-        "excellentFrontEndEngineerItem": [{
+        "excellentFrontEndEngineer": [{
             "logo": "/assets/images/icon/kinvix.png",
             "name": "TAT.Kinvix",
             "desc": "腾讯AlloyTeam负责人；HTML5梦工场深圳负责人；腾讯WebQQ架构师；",
@@ -574,7 +574,7 @@
             "desc": "《Node.js 开发指南》作者，就职于Facebook。",
             "url": "https://github.com/BYVoid"
         }],
-        "bookShareItem": [{
+        "bookShare": [{
             "logo": "/assets/images/icon/define-guild.jpg",
             "name": "JavaScript权威指南",
             "desc": "学习 JavaScript 的必备书刊",
