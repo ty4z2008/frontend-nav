@@ -289,7 +289,12 @@
             "name": "JSConf",
             "desc": "JavaScript社区会议，重点关注JavaScript 方面的技术",
             "url": "https://jsconf.com/"
-        } ,{
+        }, {
+            "logo": "/assets/images/icon/cssconf-favicon.svg",
+            "name": "CSSConf",
+            "desc": "CSS社区会议，重点关注用户界面。面向设计师和开发者的CSS会议",
+            "url": "http://cssconf.org/"
+        }, {
             "logo": "/assets/images/icon/qqlog.png",
             "name": "腾讯 Web 前端大会",
             "desc": "腾讯主办，力争为参会者带来最具实践价值、最接地气的Web前端开发经验。",
