@@ -12,9 +12,6 @@
         "name": "框架类库",
         "id": "frameworkItem"
     }, {
-        "name": "开发平台",
-        "id": "front-end-platformItem"
-    }, {
         "name": "图形动效",
         "id": "animationItem"
     }, {
