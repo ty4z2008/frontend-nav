@@ -12,7 +12,13 @@
 				</a>
 				<transition name="menu">
 					<div class="menu" v-show="showMenu" :class="{'active':showMenu}">
-						<a class="menu-item" :class="{'active':currentAnchor==item['id']}" @click="setActiveAnchor(item['id'])" :href="'/#'+item['id']" v-for="(item,idx) in menu" :key="idx">
+						<a 
+							class="menu-item" 
+							:class="{'active':currentAnchor==item['id']}" 
+							@click="setActiveAnchor(item['id'])" 
+							:href="'/#'+item['id']" 
+							v-for="(item,idx) in menu" 
+							:key="idx">
 							{{item['name']}}
 						</a>
 					</div>

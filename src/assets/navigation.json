@@ -235,6 +235,11 @@
             "desc": "百度开发的可定制的数据可视化图表",
             "url": "http://echarts.baidu.com/"
         }, {
+            "logo": "/assets/images/icon/antv-favicon.svg",
+            "name": "AntV",
+            "desc": "AntV 是蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践。",
+            "url": "https://antv.alipay.com/"
+        }, {
             "logo": "/assets/images/icon/highcharts-favicon.png",
             "name": "Highcharts",
             "desc": "兼容 IE6+、支持移动端、图表类型丰富的HTML5交互性图表库",
