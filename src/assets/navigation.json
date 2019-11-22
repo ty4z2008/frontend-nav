@@ -345,6 +345,11 @@
             "name": "Express",
             "desc": "基于 Node.js 平台，快速、开放、极简的 web 开发框架。",
             "url": "http://www.expressjs.com.cn/"
+        }, {
+            "logo": "/assets/images/icon/puppeteer-favicon.png",
+            "name": "Puppeteer",
+            "desc": "使用高级API 来通过DevTools 协议控制Chromium或Chrome",
+            "url": "https://pptr.dev/"
         }],
         "ide": [{
             "logo": "/assets/images/icon/vscode.jpg",
