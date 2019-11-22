@@ -257,6 +257,11 @@
             "name": "白鹭引擎",
             "desc": "为移动领域提供完整高效的游戏及应用解决方案",
             "url": "https://www.egret.com/"
+        }, {
+            "logo": "/assets/images/icon/js-game-favicon.svg",
+            "name": "JavasScript游戏引擎",
+            "desc": "Github上面开源JavaScript游戏引擎列表",
+            "url": "https://github.com/collections/javascript-game-engines"
         }],
         "css": [{
             "logo": "/assets/images/icon/cssweekly-favicon.png",
