@@ -133,10 +133,10 @@
             "desc": "Node.js专业中文社区",
             "url": "https://cnodejs.org/"
         }, {
-            "logo": "/assets/images/icon/jstips-favicon.png",
-            "name": "JS Tips",
-            "desc": "每天推出一个JS技巧的网站",
-            "url": "http://www.jstips.co/"
+            "logo": "/assets/images/icon/muyiy-favicon.jpg",
+            "name": "每日·壹题",
+            "desc": "每天推出一道前端面试题",
+            "url": "https://muyiy.cn/question/"
         }],
         "fePortals": [{
             "logo": "/assets/images/icon/docschina.png",
