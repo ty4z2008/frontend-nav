@@ -37,7 +37,7 @@
         "id": "buildTools"
     }, {
         "name": "在线工具",
-        "id": "inlineTools"
+        "id": "onlineTools"
     }, {
         "name": "字体图标",
         "id": "fontIcon"
@@ -439,7 +439,12 @@
             "desc": "FIS3 , 为你定制的前端工程构建工具",
             "url": "https://fex-team.github.io/fis3/"
         }],
-        "inlineTools": [{
+        "onlineTools": [{
+            "logo": "/assets/images/icon/1024tools-favicon.png",
+            "name": "1024 Tools",
+            "desc": "1024程序员开发工具箱",
+            "url": "https://1024tools.com/"
+        } ,{
             "logo": "/assets/images/icon/codepen.png",
             "name": "CodePen",
             "desc": "在线代码测试工具",
