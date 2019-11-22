@@ -377,6 +377,11 @@
             "name": "Frp",
             "desc": "内网穿透工具，可以很方便的通过公网IP访问到内网开发机器",
             "url": "https://github.com/fatedier/frp"
+        }, {
+            "logo": "/assets/images/icon/postman-favicon.png",
+            "name": "Postman",
+            "desc": "一款功能超级强大的用于发送HTTP 请求的Chrome插件",
+            "url": "https://www.getpostman.com/"
         }],
         "buildTools": [{
             "logo": "/assets/images/icon/rollup-favicon.svg",
