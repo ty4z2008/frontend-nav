@@ -372,6 +372,11 @@
             "name": "Charles",
             "desc": "好用的抓包调试工具，可在mac上使用",
             "url": "https://www.charlesproxy.com/"
+        }, {
+            "logo": "/assets/images/icon/frp-favicon.png",
+            "name": "Frp",
+            "desc": "内网穿透工具，可以很方便的通过公网IP访问到内网开发机器",
+            "url": "https://github.com/fatedier/frp"
         }],
         "buildTools": [{
             "logo": "/assets/images/icon/rollup-favicon.svg",
