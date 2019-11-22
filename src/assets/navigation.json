@@ -259,6 +259,11 @@
             "url": "https://www.egret.com/"
         }],
         "css": [{
+            "logo": "/assets/images/icon/cssweekly-favicon.png",
+            "name": "CSS Weekly",
+            "desc": "CSS 技术周刊",
+            "url": "https://css-weekly.com/"
+        } ,{
             "logo": "/assets/images/icon/css-tricks-favicon.png",
             "name": "CSS-Tricks",
             "desc": "一个关于运用CSS技术进行网络开发和设计的小技巧的交流网站",
