@@ -598,6 +598,11 @@
             "name": "Idiomatic JavaScript Style Guide",
             "desc": "惯用Javascript编码风格",
             "url": "https://github.com/rwaldron/idiomatic.js/"
+        }, {
+            "logo": "/assets/images/icon/udacity-javascript-style-guide.jpg",
+            "name": "Udacity frontend Style Guide",
+            "desc": "优达学城（Udacity）前端样式指南",
+            "url": "https://udacity.github.io/frontend-nanodegree-styleguide-zh/"
         }],
         "bookShare": [{
             "logo": "/assets/images/icon/define-guild.jpg",
