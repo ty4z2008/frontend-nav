@@ -48,8 +48,8 @@
         "name": "前端公众号",
         "id": "wechatSubscription"
     }, {
-        "name": "前端大牛",
-        "id": "excellentFrontEndEngineer"
+        "name": "格式指南",
+        "id": "styleguide"
     }, {
         "name": "书籍推荐",
         "id": "bookShare"
@@ -573,41 +573,31 @@
             "desc": "微信号：w3ctech",
             "url": "#"
         }],
-        "excellentFrontEndEngineer": [{
-            "logo": "/assets/images/icon/kinvix.png",
-            "name": "TAT.Kinvix",
-            "desc": "腾讯AlloyTeam负责人；HTML5梦工场深圳负责人；腾讯WebQQ架构师；",
-            "url": "https://github.com/kinvix"
+        "styleguide": [{
+            "logo": "/assets/images/icon/google-js-style-guide-favicon.png",
+            "name": "Google JavaScript Style Guide",
+            "desc": "Google JavaScript 样式指南",
+            "url": "https://google.github.io/styleguide/jsguide.html"
         }, {
-            "logo": "/assets/images/icon/dntzhang.jpeg",
-            "name": "dntzhang",
-            "desc": "在腾讯公司主要负责和参与日迹、兴趣部落等项目，专注开源，乐于分享，主导众多AlloyTeam开源项目，AlloyFinger、AlloyPaper、AlloyTouch作者",
-            "url": "https://github.com/dntzhang"
+            "logo": "/assets/images/icon/google-css-style-guide-favicon",
+            "name": "Google HTML/CSS Style Guide",
+            "desc": "Google HTML/CSS 样式指南",
+            "url": "https://google.github.io/styleguide/htmlcssguide.html"
         }, {
-            "logo": "/assets/images/icon/tj.png",
-            "name": "TJ Holowaychuk",
-            "desc": "程序员兼艺术家，Koa、Co、Express、jade、mocha、node-canvas、commander.js等知名开源项目的创建和贡献者。",
-            "url": "https://github.com/tj"
+            "logo": "/assets/images/icon/airbnb-javascript-style-guide.png",
+            "name": "Airbnb JavaScript 样式指南",
+            "desc": "Airbnb JavaScript 样式指南",
+            "url": "https://github.com/airbnb/javascript"
         }, {
-            "logo": "/assets/images/icon/yyx990803.png",
-            "name": "尤雨溪",
-            "desc": "Vue.js作者",
-            "url": "https://github.com/yyx990803"
+            "logo": "/assets/images/icon/standard-js-style-guide-favicon.svg",
+            "name": "JavaScript Standard Style",
+            "desc": "JavaScript标准样式指南",
+            "url": "https://standardjs.com/"
         }, {
-            "logo": "/assets/images/icon/lifesinger.png",
-            "name": "玉伯",
-            "desc": "seajs、kiss作者，就职于蚂蚁金服。",
-            "url": "https://github.com/lifesinger"
-        }, {
-            "logo": "/assets/images/icon/winter.png",
-            "name": "winter",
-            "desc": "阿里巴巴高级技术专家，知乎大V",
-            "url": "https://github.com/wintercn"
-        }, {
-            "logo": "/assets/images/icon/byvoid.png",
-            "name": "BYVod",
-            "desc": "《Node.js 开发指南》作者，就职于Facebook。",
-            "url": "https://github.com/BYVoid"
+            "logo": "/assets/images/icon/idiomatic-js-style-guide-favicon.jpg",
+            "name": "Idiomatic JavaScript Style Guide",
+            "desc": "惯用Javascript编码风格",
+            "url": "https://github.com/rwaldron/idiomatic.js/"
         }],
         "bookShare": [{
             "logo": "/assets/images/icon/define-guild.jpg",
