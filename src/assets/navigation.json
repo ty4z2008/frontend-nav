@@ -349,17 +349,22 @@
             "logo": "/assets/images/icon/koa.png",
             "name": "Koa",
             "desc": "基于Nodejs的新一代框架。",
-            "url": "http://koa.bootcss.com/"
+            "url": "https://koajs.com/"
         }, {
             "logo": "/assets/images/icon/express.png",
             "name": "Express",
             "desc": "基于 Node.js 平台，快速、开放、极简的 web 开发框架。",
-            "url": "http://www.expressjs.com.cn/"
+            "url": " https://expressjs.com/"
         }, {
             "logo": "/assets/images/icon/puppeteer-favicon.png",
             "name": "Puppeteer",
             "desc": "使用高级API 来通过DevTools 协议控制Chromium或Chrome",
             "url": "https://pptr.dev/"
+        }, {
+            "logo": "/assets/images/icon/socketio-favicon.png",
+            "name": "Socket.IO",
+            "desc": "Socket.IO 是一个面向实时web 应用的 JavaScript 库。它使得服务器和客户端之间实时双向的通信成为可能",
+            "url": "https://socket.io/"
         }],
         "ide": [{
             "logo": "/assets/images/icon/vscode.jpg",
