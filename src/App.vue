@@ -1,6 +1,9 @@
 <template>
 	<div>
 		<router-view></router-view>
+		<a href="https://github.com/ty4z2008/frontend-nav" target="_blank" class="copyright">
+			<img src="/assets/images/icon/github-favicon.svg"/> Code of this site
+		</a>
 	</div>
 </template>
 
@@ -36,6 +39,17 @@ a{
 	-webkit-text-decoration-skip: objects;
 	-webkit-transition: color .3s ease;
 	transition: color .3s ease;
+}
+.copyright{
+	color: #000;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	line-height: 40px;
+}
+.copyright img{
+	margin-right: 3px;
 }
 *{
 	background-repeat: no-repeat;
