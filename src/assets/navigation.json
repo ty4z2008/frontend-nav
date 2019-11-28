@@ -98,11 +98,6 @@
             "url": "http://efe.baidu.com/"
         }],
         "community": [{
-            "logo": "/assets/images/icon/css-tricks-favicon.jpg",
-            "name": "CSS Tricks",
-            "desc": "一个国外的优秀前端开发博客，主要分享使用CSS样式的技巧、经验和教程等",
-            "url": "https://css-tricks.com/"
-        },{
             "logo": "/assets/images/icon/gold-favicon.png",
             "name": "掘金",
             "desc": "只有高手分享的中文技术社区",
@@ -274,9 +269,9 @@
             "desc": "CSS 技术周刊",
             "url": "https://css-weekly.com/"
         } ,{
-            "logo": "/assets/images/icon/css-tricks-favicon.png",
-            "name": "CSS-Tricks",
-            "desc": "一个关于运用CSS技术进行网络开发和设计的小技巧的交流网站",
+            "logo": "/assets/images/icon/css-tricks-favicon.jpg",
+            "name": "CSS Tricks",
+            "desc": "一个国外的优秀前端开发博客，主要分享使用CSS样式的技巧、经验和教程等",
             "url": "https://css-tricks.com/"
         }, {
             "logo": "/assets/images/icon/css-wizardry-favicon.png",
