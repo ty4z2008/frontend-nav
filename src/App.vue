@@ -48,6 +48,9 @@ a{
 	text-align: center;
 	line-height: 40px;
 }
+.copyright:hover{
+	text-decoration: underline;
+}
 .copyright img{
 	margin-right: 3px;
 }
