@@ -344,6 +344,11 @@
             "name": "中国JS开发者大会",
             "desc": "一场专注于JavaScript和Node.js技术的国际性大会",
             "url": "http://jsconf.cn/"
+        }, {
+            "logo": "/assets/images/icon/react-js-conf-favicon.jpg",
+            "name": "ReactJs开发者大会",
+            "desc": "ReactJs盛会",
+            "url": "https://conf.reactjs.org/"
         }],
         "nodejs": [{
             "logo": "/assets/images/icon/koa.png",
