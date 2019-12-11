@@ -80,7 +80,7 @@
             "logo": "/assets/images/icon/fed-favicon.png",
             "name": "淘宝前端团队（FED）",
             "desc": "用技术为体验提供无限可能",
-            "url": "http://taobaofed.org/"
+            "url": "https://fed.taobao.org/"
         }, {
             "logo": "/assets/images/icon/aotu-favicon.png",
             "name": "凹凸实验室",
@@ -101,11 +101,6 @@
             "name": "美团技术团队",
             "desc": "汇集美团对外技术文章输出",
             "url": "https://tech.meituan.com/"
-        }, {
-            "logo": "/assets/images/icon/taobao-fed-favicon.png",
-            "name": "淘系前端团队（FED）",
-            "desc": "淘系前端团队（FED）",
-            "url": "https://fed.taobao.org/"
         }, {
             "logo": "/assets/images/icon/imweb-favicon.jpg",
             "name": "腾讯IMWeb",
