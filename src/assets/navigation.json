@@ -112,7 +112,13 @@
             "desc": "Fundebug 博客",
             "url": "https://github.com/Fundebug/fundebug-blog/issues"
         }],
-        "community": [{
+        "community": [
+            {
+                "logo": "/assets/images/icon/mozilla-favicon.jpg",
+                "name": "Mozilla 开发者网络",
+                "desc": "Mozilla 开发者网络（MDN）提供有关开放网络技术（Open Web）的信息，包括 HTML、CSS 和万维网及 HTML5 应用的 API。它还记录了 Mozilla 产品的文档，例如 Firefox OS。",
+                "url": "https://developer.mozilla.org/zh-CN/"
+            } ,{
             "logo": "/assets/images/icon/gold-favicon.png",
             "name": "掘金",
             "desc": "只有高手分享的中文技术社区",
@@ -468,6 +474,11 @@
             "name": "FIS3",
             "desc": "FIS3 , 为你定制的前端工程构建工具",
             "url": "https://fex-team.github.io/fis3/"
+        }, {
+            "logo": "/assets/images/icon/fis-favicon.png",
+            "name": "YEOMAN",
+            "desc": "Web应用程序的开源脚手架工具",
+            "url": "https://yeoman.io/"
         }],
         "onlineTools": [{
             "logo": "/assets/images/icon/1024tools-favicon.png",
