@@ -268,11 +268,6 @@
             "desc": "以内容创作为核心的一体化游戏开发工具",
             "url": "http://www.cocos.com/"
         }, {
-            "logo": "/assets/images/icon/egret.png",
-            "name": "白鹭引擎",
-            "desc": "为移动领域提供完整高效的游戏及应用解决方案",
-            "url": "https://www.egret.com/"
-        }, {
             "logo": "/assets/images/icon/js-game-favicon.svg",
             "name": "JavasScript游戏引擎",
             "desc": "Github上面开源JavaScript游戏引擎列表",
@@ -399,8 +394,13 @@
         }, {
             "logo": "/assets/images/icon/webstorm-favicon.png",
             "name": "WebStorm",
-            "desc": "这才叫前端IDE",
+            "desc": "Web前端开发神器",
             "url": "https://www.jetbrains.com/webstorm/"
+        }, {
+            "logo": "/assets/images/icon/atom-favicon.png",
+            "name": "Atom",
+            "desc": "Github出品的跨平台代码编辑器",
+            "url": "https://atom.io/"
         }],
         "debugTools": [{
             "logo": "/assets/images/icon/fiddler-favicon.png",
