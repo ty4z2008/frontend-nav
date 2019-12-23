@@ -249,8 +249,8 @@ export default Vue.extend({
 	display: inline-block;
 	font-size: 13px;
 	padding:  0 10px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-right: 15px;
+	margin-bottom: 15px;
 	overflow: hidden;
 	transition: box-shadow 135ms cubic-bezier(.4,0,.2,1),width 235ms cubic-bezier(.4,0,.2,1);
 	vertical-align: top;
