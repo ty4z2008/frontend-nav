@@ -309,6 +309,11 @@
             "name": "Stylus",
             "desc": "EXPRESSIVE, DYNAMIC, ROBUST CSS",
             "url": "http://stylus-lang.com/"
+        }, {
+            "logo": "/assets/images/icon/css-layout-favicon.jpeg",
+            "name": "CSS Layout",
+            "desc": "汇集50+布局方案，纯CSS",
+            "url": "https://csslayout.io/"
         }],
         "front-end-conf": [{
             "logo": "/assets/images/icon/jsconf-favicon.png",
