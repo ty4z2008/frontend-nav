@@ -370,6 +370,36 @@
             "name": "ReactJs开发者大会",
             "desc": "ReactJs盛会",
             "url": "https://conf.reactjs.org/"
+        }, {
+            "logo": "/assets/images/icon/agent-sh-conf-favicon.png",
+            "name": "Agent.sh conf",
+            "desc": "前端会议",
+            "url": "https://agent.sh/"
+        }, {
+            "logo": "/assets/images/icon/node-summit-conf-favicon.png",
+            "name": "NodeJS Summit",
+            "desc": "NodeJS 峰会，官方举办",
+            "url": "https://www.nodesummit.com/"
+        }, {
+            "logo": "/assets/images/icon/jscamp-conf-favicon.jpg",
+            "name": "JS Camp",
+            "desc": "为期两天的JavaScript会议",
+            "url": "https://jscamp.tech/"
+        }, {
+            "logo": "/assets/images/icon/node-conf-eu-favicon.jpg",
+            "name": "Node Conf.eu",
+            "desc": "欧洲NodeJS会议",
+            "url": "https://www.nodeconf.eu/"
+        }, {
+            "logo": "/assets/images/icon/dotjs-conf-favicon.png",
+            "name": "DotJS Conf",
+            "desc": "JavaScript盛会",
+            "url": "https://www.dotjs.io/"
+        }, {
+            "logo": "/assets/images/icon/jsconf-favicon.png",
+            "name": "Conf Tech",
+            "desc": "国外技术会议列表",
+            "url": "https://confs.tech/"
         }],
         "nodejs": [{
             "logo": "/assets/images/icon/koa.png",
