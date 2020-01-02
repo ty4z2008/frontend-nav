@@ -45,14 +45,8 @@
         "name": "设计资源",
         "id": "designNav"
     }, {
-        "name": "前端公众号",
-        "id": "wechatSubscription"
-    }, {
         "name": "格式指南",
         "id": "styleguide"
-    }, {
-        "name": "书籍推荐",
-        "id": "bookShare"
     }],
     "list": {
         "blog": [
