@@ -112,13 +112,12 @@
             "desc": "Fundebug 博客",
             "url": "https://github.com/Fundebug/fundebug-blog/issues"
         }],
-        "community": [
-            {
-                "logo": "/assets/images/icon/mozilla-favicon.jpg",
-                "name": "Mozilla 开发者网络",
-                "desc": "Mozilla 开发者网络（MDN）提供有关开放网络技术（Open Web）的信息，包括 HTML、CSS 和万维网及 HTML5 应用的 API。它还记录了 Mozilla 产品的文档，例如 Firefox OS。",
-                "url": "https://developer.mozilla.org/zh-CN/"
-            } ,{
+        "community": [{
+            "logo": "/assets/images/icon/mozilla-favicon.jpg",
+            "name": "Mozilla 开发者网络",
+            "desc": "Mozilla 开发者网络（MDN）提供有关开放网络技术（Open Web）的信息，包括 HTML、CSS 和万维网及 HTML5 应用的 API。它还记录了 Mozilla 产品的文档，例如 Firefox OS。",
+            "url": "https://developer.mozilla.org/zh-CN/"
+        } ,{
             "logo": "/assets/images/icon/gold-favicon.png",
             "name": "掘金",
             "desc": "只有高手分享的中文技术社区",
@@ -158,6 +157,11 @@
             "name": "每日·壹题",
             "desc": "每天推出一道前端面试题",
             "url": "https://muyiy.cn/question/"
+        },{
+            "logo": "/assets/images/icon/web-fundamentals-favicon.png",
+             "name": "Web Fundamentals",
+             "desc": "Web基础，涵盖相关工具、指南、教程以及最佳实践。Google出品",
+             "url": "https://developers.google.com/web"
         }],
         "fePortals": [{
             "logo": "/assets/images/icon/docschina.png",
@@ -184,6 +188,21 @@
             "name": "大前端",
             "desc": "旨在更完善的为各位前端爱好者提供阅读和自我提升服务。",
             "url": "http://www.daqianduan.com/"
+        }, {
+            "logo": "/assets/images/icon/hashnode-favicon.png",
+            "name": "Hashnode's Devblog",
+            "desc": "开放、友好、包容的开发者社区",
+            "url": "https://hashnode.com/devblog/posts"
+        }, {
+            "logo": "/assets/images/icon/hashnode-favicon.png",
+            "name": "JavaScript Weekly",
+            "desc": "JavaScript每周技术周刊",
+            "url": "https://javascriptweekly.com/"
+        }, {
+            "logo": "/assets/images/icon/frontend-focus-favicon.jpg",
+            "name": "Frontend Focus",
+            "desc": "前端聚焦，每周发布前端新趋势",
+            "url": "https://frontendfoc.us/"
         }],
         "framework": [{
             "logo": "/assets/images/icon/react-favicon.png",
@@ -421,6 +440,11 @@
             "name": "Socket.IO",
             "desc": "Socket.IO 是一个面向实时web 应用的 JavaScript 库。它使得服务器和客户端之间实时双向的通信成为可能",
             "url": "https://socket.io/"
+        }, {
+            "logo": "/assets/images/icon/nodeweekly-favicon.jpg",
+            "name": "Node Weekly",
+            "desc": "NodeJS周刊，每周Node好文章",
+            "url": "https://nodeweekly.com/"
         }],
         "ide": [{
             "logo": "/assets/images/icon/vscode.jpg",
