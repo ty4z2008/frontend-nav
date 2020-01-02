@@ -7,7 +7,7 @@ before_install:
 cache:
   yarn: true
 before_script:
-- yarn global add @vue/cli @vue/cli-service push-dir
+- yarn global add @vue/cli @vue/cli-service
 - yarn install
 script:
 - yarn run build
