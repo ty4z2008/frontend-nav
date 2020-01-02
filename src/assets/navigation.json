@@ -596,67 +596,6 @@
             "desc": "互动多媒体网站收录平台",
             "url": "https://thefwa.com/"
         }],
-        "wechatSubscription": [{
-            "logo": "/assets/images/icon/alloyteam-qrcode.png",
-            "name": "腾讯AlloyTeam",
-            "desc": "微信号：AlloyTeam",
-            "url": "#"
-        }, {
-            "logo": "/assets/images/icon/docchina-qr.jpg",
-            "name": "印记中文",
-            "desc": "微信号：docshina",
-            "url": "#"
-        }, {
-            "logo": "/assets/images/icon/75team-qrcode.png",
-            "name": "奇舞周刊",
-            "desc": "微信号：75team",
-            "url": "#"
-        }, {
-            "logo": "/assets/images/icon/front-dev-qrcode.png",
-            "name": "前端大全",
-            "desc": "微信号：FrontDev",
-            "url": "#"
-        }, {
-            "logo": "/assets/images/icon/front-end-magazine-qrcode.png",
-            "name": "前端外刊评论",
-            "desc": "微信号：FrontendMagazine",
-            "url": "#"
-        }, {
-            "logo": "/assets/images/icon/fe-zaoduke-qrcode.png",
-            "name": "前端早读课",
-            "desc": "微信号：FeZaoDuKe",
-            "url": "#"
-        }, {
-            "logo": "/assets/images/icon/front-show.png",
-            "name": "前端之巅",
-            "desc": "微信号：frontshow",
-            "url": "#"
-        }, {
-            "logo": "/assets/images/icon/o2-qrcode.png",
-            "name": "凹凸实验室",
-            "desc": "微信号：AOTULabs",
-            "url": "#"
-        }, {
-            "logo": "/assets/images/icon/node-subway-qrcode.png",
-            "name": "Node地下铁",
-            "desc": "微信号：Node-Subway",
-            "url": "#"
-        }, {
-            "logo": "/assets/images/icon/fex-qrcode.png",
-            "name": "FEX",
-            "desc": "微信号：baidu-front-end",
-            "url": "#"
-        }, {
-            "logo": "/assets/images/icon/w3cplus-qrcode.png",
-            "name": "W3cplus",
-            "desc": "微信号：W3cplus",
-            "url": "#"
-        }, {
-            "logo": "/assets/images/icon/w3ctech-qrcode.png",
-            "name": "w3ctech",
-            "desc": "微信号：w3ctech",
-            "url": "#"
-        }],
         "styleguide": [{
             "logo": "/assets/images/icon/google-js-style-guide-favicon.png",
             "name": "Google JavaScript Style Guide",
@@ -687,27 +626,6 @@
             "name": "Udacity frontend Style Guide",
             "desc": "优达学城（Udacity）前端样式指南",
             "url": "https://udacity.github.io/frontend-nanodegree-styleguide-zh/"
-        }],
-        "bookShare": [{
-            "logo": "/assets/images/icon/define-guild.jpg",
-            "name": "JavaScript权威指南",
-            "desc": "学习 JavaScript 的必备书刊",
-            "url": "https://book.douban.com/subject/6854549/"
-        }, {
-            "logo": "/assets/images/icon/professional-javascript.jpg",
-            "name": "JavaScript高级程序设计",
-            "desc": "红宝书",
-            "url": "https://book.douban.com/subject/10546125//"
-        }, {
-            "logo": "/assets/images/icon/js-design-pattern.jpg",
-            "name": "JavaScript设计模式与开发实践",
-            "desc": "本书将教会你如何把经典的设计模式应用到JavaScript语言中",
-            "url": "https://book.douban.com/subject/26382780/"
-        }, {
-            "logo": "/assets/images/icon/http-guide.jpg",
-            "name": "HTTP权威指南",
-            "desc": "比较少见的全面介绍HTTP协议的书。",
-            "url": "https://book.douban.com/subject/10746113/"
         }]
     }
 }
