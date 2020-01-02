@@ -12,11 +12,12 @@ before_script:
 script:
 - yarn run build
 deploy:
-  provider: pages
+  provider: pages:git
   skip_cleanup: true
   local_dir: dist
   target-branch: gh-pages
   github_token: $GITHUB_TOKEN
+  fqdn: frontend.microdba.com
   keep_history: true
   edge: true
   verbose: true
