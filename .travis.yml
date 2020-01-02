@@ -19,7 +19,7 @@ deploy:
   github_token: $GITHUB_TOKEN
   fqdn: frontend.microdba.com
   keep_history: true
-  edge: true
+  # edge: true
   verbose: true
   on:
     branch: master
