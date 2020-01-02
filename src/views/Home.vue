@@ -14,7 +14,6 @@
 					<div class="menu" v-show="showMenu" :class="{'active':showMenu}">
 						<a
 							class="menu-item"
-							target="_blank"
 							:class="{'active':currentAnchor==item['id']}"
 							@click="setActiveAnchor(item['id'])"
 							:href="'/#'+item['id']"
@@ -30,7 +29,12 @@
 			<div class="block" :id="item['id']" v-for="(item,idx) in menu" :key="idx">
 				<div class="header">{{item['name']}}</div>
 				<div>
-					<a :href="field['url']" class="item"  v-for="(field,key) in list[item['id']]" :key="key">
+					<a
+						:href="field['url']"
+						class="item"
+						target="_blank"
+						v-for="(field,key) in list[item['id']]"
+						:key="key">
 						<div class="logo">
 							<img :src="field['logo']" :alt="field['name']">
 						</div>
