@@ -12,7 +12,7 @@ before_script:
 script:
 - yarn run build
 deploy:
-  provider: pages:git
+  provider: pages
   skip_cleanup: true
   local_dir: dist
   target-branch: gh-pages
