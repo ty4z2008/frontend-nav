@@ -1,0 +1,98 @@
+<svg width="180" height="168" viewBox="0 0 180 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>sidebar-logo-white-2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-180 85)">
+<g id="sidebar-logo-white-2">
+<g id="Rectangle">
+<use xlink:href="#path0_fill" transform="translate(234 -45)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path0_fill" transform="translate(234 -5)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path0_fill" transform="translate(234 35)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(270 15)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(222 -25)" fill="#FFFFFF"/>
+</g>
+<g id="Group">
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(222 -65)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(270 -85)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(270 55)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(222 75)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="translate(330 15)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="translate(330 55)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="translate(330 -85)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path3_fill" transform="translate(282 -25)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path3_fill" transform="translate(282 -65)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path3_fill" transform="translate(282 75)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="translate(180 -25)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="translate(180 75)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="translate(180 -65)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path4_fill" transform="translate(318 -5)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path4_fill" transform="translate(180 -5)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path4_fill" transform="translate(318 -45)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path4_fill" transform="translate(180 -45)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path4_fill" transform="translate(318 35)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path4_fill" transform="translate(180 35)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path3_fill" transform="translate(180 15)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path3_fill" transform="translate(180 55)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path3_fill" transform="translate(180 -85)" fill="#FFFFFF" fill-opacity="0.2"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 72 0L 72 8L 0 8L 0 0Z"/>
+<path id="path1_fill" d="M 0 0L 48 0L 48 8L 0 8L 0 0Z"/>
+<path id="path2_fill" d="M 0 0L 30 0L 30 8L 0 8L 0 0Z"/>
+<path id="path3_fill" d="M 0 0L 78 0L 78 8L 0 8L 0 0Z"/>
+<path id="path4_fill" d="M 0 0L 42 0L 42 8L 0 8L 0 0Z"/>
+</defs>
+</svg>
