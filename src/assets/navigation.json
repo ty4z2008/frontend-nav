@@ -561,6 +561,16 @@
             "url": "https://icomoon.io/"
         }],
         "designNav": [{
+            "logo": "/assets/images/icon/sidebar-favicon.svg",
+            "name": "Sidebar",
+            "desc": "每天五条设计文章推荐",
+            "url": "https://sidebar.io/"
+        },{
+            "logo": "/assets/images/icon/idesign-favicon.png",
+            "name": "设计导航",
+            "desc": "腾讯CDC出品的设计师导航",
+            "url": "https://idesign.qq.com/"
+        },{
             "logo": "/assets/images/icon/uigreat-favicon.jpg",
             "name": "UIGREAT",
             "desc": "优秀设计师的贴心伴侣。",
@@ -595,6 +605,11 @@
             "name": "FWA",
             "desc": "互动多媒体网站收录平台",
             "url": "https://thefwa.com/"
+        }, {
+            "logo": "/assets/images/icon/uicn-favicon.png",
+            "name": "UI中国",
+            "desc": "前iconfans",
+            "url": "https://www.ui.cn/"
         }],
         "styleguide": [{
             "logo": "/assets/images/icon/google-js-style-guide-favicon.png",
