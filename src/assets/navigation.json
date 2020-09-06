@@ -197,6 +197,16 @@
             "name": "Frontend Focus",
             "desc": "前端聚焦，每周发布前端新趋势",
             "url": "https://frontendfoc.us/"
+        }, {
+            "logo": "/assets/images/icon/jster-weekly-favicon.png",
+            "name": "JSter Weekly",
+            "desc": "最流行实用的JavaScript 库的列表",
+            "url": "http://jster.net/"
+        }, {
+            "logo": "/assets/images/icon/webtools-weekly-favicon.jpg",
+            "name": "Web Tools Weekly",
+            "desc": "前端Web开发的兵器库",
+            "url": "https://webtoolsweekly.com/"
         }],
         "framework": [{
             "logo": "/assets/images/icon/react-favicon.png",
@@ -208,6 +218,11 @@
             "name": "Vue",
             "desc": "构建数据驱动的web界面的渐进式框架",
             "url": "https://cn.vuejs.org/"
+        },{
+            "logo": "/assets/images/icon/mithriljs-favicon.png",
+            "name": "Mithril.JS",
+            "desc": "MithrilJs集合路由、Request的单页应用构建框架。压缩后<10KB",
+            "url": "https://mithril.js.org/"
         }, {
             "logo": "/assets/images/icon/jquery.png",
             "name": "jQuery",
