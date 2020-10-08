@@ -6,7 +6,7 @@
         "name": "开发社区",
         "id": "community"
     }, {
-        "name": "前端门户",
+        "name": "Web资讯",
         "id": "fePortals"
     }, {
         "name": "框架类库",
@@ -207,6 +207,11 @@
             "name": "Web Tools Weekly",
             "desc": "前端Web开发的兵器库",
             "url": "https://webtoolsweekly.com/"
+        },{
+            "logo": "/assets/images/icon/awesome-favicon.svg",
+            "name": "Awesome Site",
+            "desc": "Awesome 系列集合",
+            "url": "https://asmcn.icopy.site/"
         }],
         "framework": [{
             "logo": "/assets/images/icon/react-favicon.png",
