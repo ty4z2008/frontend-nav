@@ -8,7 +8,9 @@ cache:
   yarn: true
 before_script:
 - yarn global add @vue/cli @vue/cli-service
+- export NODE_ENV=development
 - yarn install
+- export NODE_ENV=production
 script:
 - yarn run build
 deploy:
