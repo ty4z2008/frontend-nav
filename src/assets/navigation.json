@@ -105,6 +105,16 @@
             "name": "Fundebug",
             "desc": "Fundebug 博客",
             "url": "https://github.com/Fundebug/fundebug-blog/issues"
+        }, {
+            "logo": "/assets/images/icon/thoughtworks-favicon.png",
+            "name": "Thoughtworks",
+            "desc": "Thoughtworks洞见",
+            "url": "https://insights.thoughtworks.cn/"
+        }, {
+            "logo": "/assets/images/icon/youzan-tech-favicon.png",
+            "name": "有赞技术",
+            "desc": "有赞技术团队",
+            "url": "https://tech.youzan.com/"
         }],
         "community": [{
             "logo": "/assets/images/icon/mozilla-favicon.jpg",
