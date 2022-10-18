@@ -469,6 +469,16 @@
             "name": "Node Weekly",
             "desc": "NodeJS周刊，每周Node好文章",
             "url": "https://nodeweekly.com/"
+        }, {
+            "logo": "/assets/images/icon/denoweekly-favicon.svg",
+            "name": "Deno Weekly",
+            "desc": "Deno周刊，每周Deno好文章",
+            "url": "https://deno.news/archive"
+        }, {
+            "logo": "/assets/images/icon/serverless-favicon.png",
+            "name": "Serverless Weekly",
+            "desc": "Serverless周刊，每周Serverless好文章",
+            "url": "https://serverless.email/"
         }],
         "ide": [{
             "logo": "/assets/images/icon/vscode.jpg",
